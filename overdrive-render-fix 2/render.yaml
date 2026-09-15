@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: overdrive
+    runtime: node
+    buildCommand: yarn
+    startCommand: yarn start
+    healthCheckPath: /healthz
