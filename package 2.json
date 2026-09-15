@@ -1,0 +1,14 @@
+{
+  "name": "gridiron-legends-server",
+  "version": "1.0.0",
+  "description": "Colyseus multiplayer server for Gridiron Legends online lobby (Part 1: matchmaking + rooms only, no gameplay sync yet).",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@colyseus/schema": "^2.0.6",
+    "colyseus": "^0.15.35",
+    "express": "^4.19.2"
+  }
+}
